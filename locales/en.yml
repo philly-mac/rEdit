@@ -1,0 +1,44 @@
+en:
+  menu_item:
+    file:
+      title: File
+      label:
+        new: "&New"
+        open: "&Open"
+        save: "&Save"
+        save_as: "S&ave As"
+        exit: "&Exit"
+      tool_tip:
+        new:
+        open:
+        save:
+        save_as:
+        exit:
+    edit:
+      title: Edit
+      label:
+        undo: "&Undo"
+        redo: "&Redo"
+        cut: "&Cut"
+        copy: "&Copy"
+        paste: "&Paste"
+      tool_tip:
+        undo:
+        redo:
+        cut:
+        copy:
+        paste:
+    search:
+      title: Search
+      label:
+        find: "&Find"
+      tool_tip:
+        find:
+    about:
+      title: About
+      label:
+        help: "&Help"
+        about: "&About"
+      tool_tip:
+        help:
+        about:

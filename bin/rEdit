@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+APP_ROOT = "#{File.dirname(__FILE__)}/.."
+
+$: << "#{APP_ROOT}/lib"
+
+require 'r_edit'
+
+REdit::Base.start
