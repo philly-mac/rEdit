@@ -30,23 +30,20 @@ To achieve 1.0 status there will not be a lot of requirements.
 * Auto refresh project tree
 * Snippets
 * Vertical select/edit
-
-If you notice I didn't put syntax highlighting, because while it is nice and actually quite important, it is also complex. At least I think so.
-So I shall not put this on the list of things to reach 1.0 status
-
-The plan is that once these very basic set of requirements have been achieved more ambitious things can be attempted. Like the syntax highlighting.
+* Syntax highlighting
 
 # Install
 
 Current development setup
 
-- ubuntu 10.04
+- Arch Linux
 - Ruby 1.9.2 (via rvm)
 - swig 1.3.38 http://sourceforge.net/projects/swig/files/swigwin/swigwin-1.3.38/swigwin-1.3.38.zip/download
 - wxRuby 2.0.1 (http://rubyforge.org/frs/download.php/63379/wxruby-2.0.1.tar.gz)
 
-Unfortunately you will need to compile swig and wxruby (in that order) by hand, if you are on ubuntu
-9.10 or above. wxRuby gem will not work with the wxWidgets from the repo.
+I will try and create a maintain an install script that will allwo you to have one command install of it
+
+But if you want to install the components yourself
 
 Once swig is compiled and installed from the root of the unpacked source
     ./configure
