@@ -45,15 +45,26 @@ I will try and create a maintain an install script that will allwo you to have o
 
 But if you want to install the components yourself
 
-Once swig is compiled and installed from the root of the unpacked source
-    ./configure
-    make
-    (sudo) make install
 
-You can compile a wxRuby gem from the root of the unpacked source
-    rake gem
+install wxgtk for your system. On arch it is
 
-And this you can install gem
-    (sudo) gem install --local wxruby-ruby*.gem
+        (sudo) pacman -S wxgtk
+
+
+In the rEdit/src directory unpack wigwin-1.3.38.zip
+
+        unzip wigwin-1.3.38.zip
+        cd wigwin-1.3.38
+        ./configure
+        make
+        (sudo) make install
+
+
+In the rEdit/src directory unpack wxruby-2.0.1.tar.gz
+
+        tar -xzvf wxruby-2.0.1.tar.gz
+        cd wxruby-2.0.1
+        rake gem
+        (sudo) gem install --local wxruby-ruby*.gem
 
 This combination of tools work, others might as well but I am not sure

@@ -5,6 +5,7 @@ GEM
     ffaker (0.4.0)
     i18n (0.4.1)
     rr (1.0.0)
+    wxruby-ruby19 (2.0.1)
 
 PLATFORMS
   ruby
@@ -14,3 +15,4 @@ DEPENDENCIES
   ffaker
   i18n
   rr
+  wxruby-ruby19

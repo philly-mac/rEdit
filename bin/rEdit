@@ -4,6 +4,9 @@ APP_ROOT = "#{File.dirname(__FILE__)}/.."
 
 $: << "#{APP_ROOT}/lib"
 
+require "rubygems"
+require "bundler/setup"
+
 require 'r_edit'
 
 REdit::Base.start
