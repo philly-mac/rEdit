@@ -12,13 +12,17 @@ cd swigwin-1.3.38
 
 cd ..
 
-[[ ! -d "wxruby-2.0.1" ]] && tar -xzf wxruby-2.0.1.tar.gz
+if [[ ! -e "src/wxruby-2.0.1/wxruby-ruby19-2.0.1-x86_64-linux.gem" ]]; then
 
-cd wxruby-2.0.1
+  [[ ! -d "wxruby-2.0.1" ]] && tar -xzf wxruby-2.0.1.tar.gz
 
-echo "This may take a while.."
+  cd wxruby-2.0.1
 
-rake gem
-cp src/wxruby-2.0.1/wxruby-ruby19-2.0.1-x86_64-linux.gem vendor/cache/
+  echo "This may take a while.."
+
+  rake gem
+else
+  cp src/wxruby-2.0.1/wxruby-ruby19-2.0.1-x86_64-linux.gem vendor/cache/
+fi
 
 echo "Build done"
